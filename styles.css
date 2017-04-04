@@ -1,0 +1,29 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Roboto', serif;
+    line-height: 1.7;
+    font-size: 12px;
+    max-width: 705px;
+}
+
+video {
+    width: 100%;
+}
+
+.transcript-container {
+    margin: 0 7%;
+    padding-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    .transcript-container {
+        margin: 0;
+    }
+    .container {
+        margin-top: 30px;
+    }
+}
