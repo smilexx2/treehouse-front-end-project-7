@@ -120,6 +120,16 @@ video.addEventListener("timeupdate", function() {
     }
 });
 
+
+    for (let i = 0; i < captionSpans.length; i++) {
+        captionSpans[i].addEventListener("click", () => {
+            video.currentTime = captions[i].startTime / 1000;
+            console.log(video.currentTime);
+        });
+    }
+
+
+
 const clearHighlight = () => {
     for (let i = 0; i < captionSpans.length; i++) {
         captionSpans[i].className = "";

@@ -17,7 +17,15 @@ video {
 }
 
 .transcript-container span.highlighted {
-    color: #fdb35f;
+    color: #ff9900;
+}
+
+.video .mejs__controls {
+    background: #ff9900;
+}
+
+.video .mejs__volume-slider {
+    background: #ff9900;
 }
 
 @media screen and (min-width: 768px) {
